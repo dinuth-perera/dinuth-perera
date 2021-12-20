@@ -1,16 +1,37 @@
-### Hi there 👋
+### Hi 👋, I'm Dinuth Perera
 
-<!--
-**dinuth-perera/dinuth-perera** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# - 🔭 Technopreneur | 🌱 Green-Lover | FOSS ❤️ | ✨ Living Today
 
-Here are some ideas to get you started:
+class DinuthPerera(self):
+        self.username = 'dinuth-perera'
+        self.full_name = 'Dinuth Hasanka Perera'
+        self.web = ['https://dinuth.me', 'https://core48.com/', 'https://core4biz.com/']
+        self.linkedin = 'https://www.linkedin.com/in/dinuthperera/'
+        self.twitter = '@Dinuth_perera'
+        self.source = {
+            'Where I live': ['Beruwala, Sri Lanka'],
+        },
+        self.code = {
+            'erp': ['odoo erp', 'erp_next'],
+            'frontend': ['HTML', 'CSS', 'JavaScript', 'Boostrap', 'TS'],
+            'backend': ['Python', 'Odoo', 'Django','Dart', 'TS', 'Bash',],
+            'mobile': ['Ionic', 'ReactNative', 'Flutter',],
+            'database': ['PostgreSQL', 'MySQL', 'SQLite3',],
+            'devops': ['CI/CD', 'Apache', 'Docker', 'Nginx', 'AWS','GCP'],
+            'tools': ['GIT', 'GitHub', 'Bitbucket'],
+            'ides': ['Visual Studio Code','Sublime Text', 'nano'],
+            'misc': ['Iot', 'Telecommunication', 'Firebase', 'DevOps', 'GNU/Linux', 'Network_And_Information Security']
+        },
+        self.projects = {
+            'PayHere payment gateway integration for Odoo': ['https://apps.odoo.com/apps/modules/14.0/payhere_payment/', 'https://github.com/Core48/odoo_payhere', ['Python', 'Odoo']],
+            'Ebedding Sets': [ 'https://www.ebeddingsets.com/', ['Wordpress'] ],
+        }
+        
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __str__(self):
+        return self.name
+
+
+if __name__ == '__main__':
+    me = DinuthPerera()
+
