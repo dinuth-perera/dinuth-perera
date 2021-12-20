@@ -1,13 +1,14 @@
 ### Hi 👋, I'm Dinuth Perera
 
-# - 🔭 Technopreneur | 🌱 Green-Lover | FOSS ❤️ | ✨ Living Today
-
+- 🔭 Technopreneur | 🌱 Green-Lover | FOSS ❤️ | ✨ Living Today
+```python
 class DinuthPerera(self):
         self.username = 'dinuth-perera'
         self.full_name = 'Dinuth Hasanka Perera'
         self.web = ['https://dinuth.me', 'https://core48.com/', 'https://core4biz.com/']
         self.linkedin = 'https://www.linkedin.com/in/dinuthperera/'
         self.twitter = '@Dinuth_perera'
+        self.fiverr = 'https://www.fiverr.com/dinuthperera'
         self.source = {
             'Where I live': ['Beruwala, Sri Lanka'],
         },
@@ -29,9 +30,24 @@ class DinuthPerera(self):
         
 
     def __str__(self):
-        return self.name
+        return self.full_name
 
 
 if __name__ == '__main__':
     me = DinuthPerera()
+    
+```
+  ## Ping Me
+
+- Twitter:       https://twitter.com/Dinuth_perera
+- Linkedin:      https://www.linkedin.com/in/dinuthperera/
+- Fiverr:        https://www.fiverr.com/dinuthperera
+
+  ## Website
+- Personal Site: https://dinuth.me
+
+  ## Email
+
+- pm@dinuth.me
+- dinuth@core48.com
 
